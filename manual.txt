@@ -1,0 +1,6 @@
+ビルド & 起動
+docker compose up -d
+コンテナに入る
+docker exec -it compilerbook bash
+終了
+Ctrl+C または docker-compose down
