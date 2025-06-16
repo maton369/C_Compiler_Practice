@@ -2,6 +2,7 @@ version: "3.8"
 
 services:
   compiler:
+    platform: linux/amd64   # ← 追加
     build:
       context: .
       dockerfile: Dockerfile
